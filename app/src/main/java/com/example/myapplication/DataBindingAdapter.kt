@@ -5,7 +5,7 @@ import androidx.databinding.BindingAdapter
 
 object DataBindingAdapter {
     @JvmStatic
-    @BindingAdapter("setCountText")
+    @BindingAdapter("countText")
     fun TextView.setCountText(count: Int) {
         text = if (count < 3) {
             "Updated to $count"
